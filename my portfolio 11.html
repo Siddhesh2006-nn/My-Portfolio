@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(203, 192, 192);
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Styling for Navigation Links */
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #333;
+        }
+
+        a:hover {
+            color: #0077b5;
+        }
+
+        /* About, Qualification, Technical Skills Section */
+        #S1, #S2, #S3, #S4, #S5, #m1 , #head{
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:rgb(107, 135, 134);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        /* Table Styling for Qualification Section */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color:rgb(202, 236, 234);
+        }
+
+        /* Skill Section */
+        .skill-category {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Contact Section Styling */
+        .contact-info {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .contact-info li {
+            margin: 10px 0;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .social-links a:hover {
+            color: #0077b5;
+        }
+
+        /* Centering Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Section Border and Padding */
+        #S1, #S2, #S3, #S4, #S5, #m1, #head{
+            border: solid black 2px;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: rgb(202, 236, 234);
+            border-radius: 8px;
+        }
+        nav{
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="head">
+        <nav>
+        <h1 style="color:black;">MY PORTFOLIO</h1>
+        <a href="#S1">About me</a>&nbsp;&nbsp;
+        <a href="#S2">Qualification details</a>&nbsp;&nbsp;
+        <a href="#S3">Technical skill</a>&nbsp;&nbsp;
+        <a href="#S4">Others skills</a>&nbsp;&nbsp;
+        <a href="#S5">Contact info</a>&nbsp;&nbsp;
+    </nav>
+</div>
+
+<div id="m1">
+
+ <center><img src="2222.jpg" alt="Profile Image"></center>
+    <center><h1 style="color: burlywood;"><u>SIDDHESH N NAGMOTE</u></h1></center>
+    </div>
+
+
+    <div id="S1">
+        <h1>About me</h1>
+        <p>My name is Siddhesh Narendra Nagmote.<br>Currently I am pursuing my B.Tech degree
+            from Zeal College of Engineering and Research, Narhe Pune.<br>
+            I am a student of 1st year, Computer Engineering Department.<br>
+            I am a good learner and a good team player.</p>
+    </div>
+    
+    <div id="S2">
+        <h1>Qualification Details</h1>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institute</th>
+                <th>Year of Passing</th>
+                <th>Grade/Percentage</th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>Southern Point High School</td>
+                <td>2021</td>
+                <td>88.87%</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>A.B.C Convent & Jr College, Nagpur</td>
+                <td>2024</td>
+                <td>77.79%</td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>Zeal College of Engineering and Research</td>
+                <td>Ongoing</td>
+                <td>--</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="S3">
+        <h1>Technical Skills</h1>
+        <p class="skill-category">Programming Languages:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+
+        <p class="skill-category">Frameworks and Libraries:</p>
+        <ul>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Django</li>
+            <li>Bootstrap</li>
+        </ul>
+
+        <p class="skill-category">Tools and Platforms:</p>
+        <ul>
+            <li>Git/GitHub</li>
+            <li>Visual Studio Code</li>
+            <li>Node.js</li>
+            <li>Postman</li>
+        </ul>
+
+        <p class="skill-category">Databases:</p>
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+        </ul>
+    </div>
+
+    <div id="S4">
+        <h1>Other Skills</h1>
+        <ul>
+            <li>Soft Skills
+                <ul>
+                    <li>Team Collaboration</li>
+                    <li>Communication</li>
+                    <li>Time Management</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Key Interests
+                <ul>
+                    <li>Writing Appreciation</li>
+                    <li>Listening to Songs</li>
+                    <li>Learning Real Facts</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="S5">
+        <h1>Contact Info</h1>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:nagmotesiddhesh86@gmail.com">nagmotesiddhesh86@gmail.com</a></li>
+            <li>Phone: 9322xxxx44</li>
+            <li>Address: Narhe, Pune, Maharashtra</li>
+        </ul>
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
